@@ -10,9 +10,8 @@ info() {
 	printf "\n[${BLUE}..\033[0m] $1\n\n" >&2
 }
 
-# Prompts user input
-user() {
-	printf "\n[${YELLOW}??${RESET}] $1\n\n" >&2
+warn() {
+	printf "\n[${YELLOW}!!${RESET}] $1\n\n" >&2
 }
 
 # Indicates success

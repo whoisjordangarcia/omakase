@@ -11,5 +11,5 @@ if [ ! -d "$HOME/HyDE" ]; then
 	cd ~/HyDE/Scripts || exit
 	./install.sh
 else
-	echo "HyDE repository already exists in $HOME/HyDE"
+	warn "HyDE repository already exists in $HOME/HyDE"
 fi
