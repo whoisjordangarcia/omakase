@@ -1,0 +1,12 @@
+if command -v omz &> /dev/null; then
+  source ~/.local/share/omakase/config/zsh/modules/zshrc-ohmyzsh
+fi
+
+source ~/.local/share/omakase/config/zsh/modules/zshrc-aliases
+source ~/.local/share/omakase/config/zsh/modules/zshrc-envars
+source ~/.local/share/omakase/config/zsh/modules/zshrc-functions
+source ~/.local/share/omakase/config/zsh/modules/zshrc-startup
+source ~/.local/share/omakase/config/zsh/modules/zshrc-init
+
+
+

@@ -1,0 +1,9 @@
+alias vim="nvim"
+alias reload="source ~/.zshrc"
+alias ls="eza --group-directories-first --icons"
+alias hyprc="nvim ~/.config/hypr/hyprland.conf"
+
+alias n='nvim'
+alias g='git'
+alias d='docker'
+
